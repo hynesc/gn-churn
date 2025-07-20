@@ -55,7 +55,7 @@ Analysis of the model's coefficients reveals the most significant factors influe
 - **Validation:** Stratified K-Fold Cross-Validation
 - **Source Code & Data:** The `gn_churn.ipynb` notebook contains the complete code for data processing and modeling. To protect confidential information, the original dataset is not included. The notebook generates a **synthetic dataset** that mimics the structure of the original.
 
-## 📁 File Structure
+## File Structure
 
 ```
 .

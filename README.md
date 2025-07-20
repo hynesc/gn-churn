@@ -45,7 +45,7 @@ Analysis of the model's coefficients reveals the most significant factors influe
 2.  **Existing Account History:** Knowing a customer had a previous free account was a strong signal of loyalty and a significantly lower churn risk.
 3.  **Annual Recurring Revenue (ARR):** As a customer's ARR increased, their likelihood of churn decreased substantially, suggesting that higher-paying customers are more invested in the service.
 
-## 🛠️ Tech Stack & Methodology
+## Tech Stack & Methodology
 
 - **Modeling:** Python 3.11, scikit-learn, pandas, numpy, joblib
 - **Web App:** Streamlit

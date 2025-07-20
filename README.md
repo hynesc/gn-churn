@@ -28,8 +28,11 @@ The logistic regression model was validated using a **Stratified 5-Fold Cross-Va
 | :-------------- | :---- |
 | **Mean Accuracy** | 0.79  |
 | **Mean ROC AUC** | 0.70  |
+| **Mean PR-AUC** | 0.54  |
 
-An ROC AUC score of 0.70 indicates that the model has a reasonable capability to distinguish between customers who will churn and those who will not.
+An ROC AUC score of 0.70 demonstrates a good capability to distinguish between customers who will churn and those who will not, performing significantly better than a naive baseline (which would score 0.50).
+
+The PR-AUC score is particularly important for imbalanced datasets like churn prediction. A score of 0.54 indicates that the model is substantially better at identifying the minority class (churners) than a random model, providing significant business value by effectively prioritizing at-risk customers.
 
 ## Key Predictive Factors
 
